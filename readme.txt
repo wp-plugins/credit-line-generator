@@ -17,18 +17,22 @@ Press submit, and the plug-in will paste a nicely formatted string to the end of
 
 You could do this by hand of course, but I hope that this saves (a little) time, and that it will keep you from making typos.
 
+I am currently a happy user of my own plugin, and forsee no major changes in the future. Please let me know if there is any feature you could use.
+
 = Examples =
 
-_Photo_ by John Smith.
-
-_Photo of a fire truck_ by John Smith, _some rights reserved_.
-
+* _Photo_ by John Smith.
+* _Photo of a fire truck_ by John Smith, _some rights reserved_.
 
 == Installation ==
 
 1. Upload the folder containing the plugin to the `/wp-content/plugins/` directory.
-1. Activate the plugin through the 'Plugins' menu in WordPress.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+
+== Screenshots ==
+1. The form.
 
 == Changelog ==
+
 = 0.1.3 = 
 * First public version.

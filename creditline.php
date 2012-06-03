@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Credit line generator
-Plugin URI: http://www.abeleto.nl
+Plugin URI: http://wordpress.org/extend/plugins/credit-line-generator
 Description: Adds a credit line for an illustration, linking to the illustration source.
-Version: 0.1.2
+Version: 0.1.3
 Author: Branko Collin
 Author URI: http://www.brankocollin.nl
 */
@@ -36,6 +36,9 @@ Author URI: http://www.brankocollin.nl
 */ 
 
 /* Todo: 
+  - Check if naming differences between me and wp.org cause problems (if so, rename either).
+  - Validate the HTML of the form.
+  - Use NOSCRIPT where necessary.
   - Make sure the credit line gets inserted at the cursor position 
   (currently it gets appended to the posting).
   - Add features: produce error messages when users insert an 
