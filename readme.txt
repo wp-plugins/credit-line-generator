@@ -2,7 +2,7 @@
 Contributors: hatesspam
 Tags: credit, credits, image credit, licence, license, licenses, licences, caption, captions
 Requires at least: 3.3
-Tested up to: 3.3.2
+Tested up to: 3.9.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -15,9 +15,17 @@ This plug-in will let you add image credits to posts and pages. It does this by 
 
 Press submit, and the plug-in will paste a nicely formatted string to the end of your editor. 
 
-You could do this by hand of course, but I hope that this saves (a little) time, and that it will keep you from making typos.
-
 I am currently a happy user of my own plugin, and forsee no major changes in the future. Please let me know if there is any feature you could use.
+
+Note that currently only the text editor is supported.
+
+=== Requirements ===
+* Javascript.
+* WordPress editor tab "Text".
+
+=== Rationale ===
+
+My goal in writing this plugin was mainly to help me avoid typos. 
 
 = Examples =
 
@@ -33,6 +41,10 @@ I am currently a happy user of my own plugin, and forsee no major changes in the
 1. The form.
 
 == Changelog ==
+
+= 0.1.4 =
+* Fixed: media buttons rendered over the pop-up.
+* Changed: removed nonsense text to keep pop-up smaller.
 
 = 0.1.3 = 
 * First public version.

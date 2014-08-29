@@ -3,7 +3,7 @@
 Plugin Name: Credit line generator
 Plugin URI: http://wordpress.org/extend/plugins/credit-line-generator
 Description: Adds a credit line for an illustration, linking to the illustration source.
-Version: 0.1.3
+Version: 0.1.4
 Author: Branko Collin
 Author URI: http://www.brankocollin.nl
 */
@@ -33,6 +33,7 @@ Author URI: http://www.brankocollin.nl
   0.1.2   Wordpress renamed a couple of action hooks we were using, and uses
           a Tags object now for the Quicktags.
   0.1.3   First Wordpress.org version, cleaned things up a bit, added a readme.txt.
+  0.1.4   Fixed a positioning bug, cleaned up the interface.
 */ 
 
 /* Todo: 
@@ -62,6 +63,7 @@ function creditline_head() {
     position: absolute; 
     top: 20px; 
     left: 20px;
+    z-index: 10;
   }
   .creditline_fakebutton {
     display: block; 
@@ -103,11 +105,9 @@ END;
   <div id="creditline" class="stuffbox">
     <h2>Credit line generator</h2>
     
-    <p>Sometimes a body just needs to give credit where it's due (if only because if you do not, gorillas with truncheons come knocking down your door).</p>
+    <p><em>Make photo credits easy.</em></p>
     
     <p>The tool below will, if you feed it the right data, come up with something like <code><a href="">Photo</a> by John Smith.</code> or <code><a href="">Photo of gorillas with truncheons knocking down your door</a> by John Smith, <a href="">some rights reserved</a>.</code> and so on.</p>
-    
-    <p>If you feed this form the wrong data, a puppy will shed a tear somewhere, I am sure.</p>
 
     <script type="text/javascript">
     <!-- 
