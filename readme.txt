@@ -3,7 +3,7 @@ Contributors: hatesspam
 Tags: credit, credits, image credit, licence, license, licenses, licences, caption, captions
 Requires at least: 3.3
 Tested up to: 3.9.2
-Stable tag: trunk
+Stable tag: 0.1.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,18 +19,18 @@ I am currently a happy user of my own plugin, and forsee no major changes in the
 
 Note that currently only the text editor is supported.
 
-=== Requirements ===
+= Requirements =
 * Javascript.
 * WordPress editor tab "Text".
-
-=== Rationale ===
-
-My goal in writing this plugin was mainly to help me avoid typos. 
 
 = Examples =
 
 * _Photo_ by John Smith.
 * _Photo of a fire truck_ by John Smith, _some rights reserved_.
+
+= Rationale =
+
+My goal in writing this plugin was mainly to help me avoid typos. 
 
 == Installation ==
 
@@ -39,6 +39,17 @@ My goal in writing this plugin was mainly to help me avoid typos.
 
 == Screenshots ==
 1. The form.
+
+== Frequently Asked Questions ==
+
+= Why doesn't it work =
+
+There could be a couple of reasons: 
+
+1. You're using the Visual editor. At the moment only the Text editor is supported.
+2. You have Javascript disabled or another Javascript program is interfering.
+
+If the reason it doesn't work isn't in this list, please file a support request on the plugin's homepage. Please describe what you have tried (step for step) and where it goes wrong. 
 
 == Changelog ==
 
