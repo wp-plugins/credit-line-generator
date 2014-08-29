@@ -3,7 +3,7 @@
 Plugin Name: Credit line generator
 Plugin URI: http://wordpress.org/extend/plugins/credit-line-generator
 Description: Adds a credit line for an illustration, linking to the illustration source.
-Version: 0.1.4
+Version: 0.1.4.1
 Author: Branko Collin
 Author URI: http://www.brankocollin.nl
 */
